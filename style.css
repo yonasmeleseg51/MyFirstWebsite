@@ -1,0 +1,351 @@
+*
+{
+    margin: 0;
+}
+.one
+{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(5, 5, 222);
+    text-align: center;  
+ 
+}
+.two
+{
+    width: 100vw;
+    height: calc(100vh - 140px );
+    background-image: url("main-view.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul li
+{
+   display: inline-block; 
+  
+}
+ul li a{
+    color: #ffd700;
+}
+li{
+   
+    padding: 20px;
+    font-size: 30px;
+    
+}
+a
+{
+    text-decoration: none;
+
+}
+li a:hover
+{
+    color: indigo;
+    background-color: mediumvioletred;
+    font-size: 32px;
+}
+li a:active
+{
+    color: black;
+}
+footer
+{
+    width: 100vw;
+    height: 60px;
+    background-color: lightgrey;
+   text-align: center;
+
+}
+.about
+{
+    font-size: 20px;
+    margin-top: 8px;
+    width: 100vw;
+    height: 70vh;
+}
+.about1
+{
+    float: left;
+    width: 50%;
+    height: 90%;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.animate 
+{
+    color: black;
+    font-weight: bold;
+    animation: myanimation;
+    animation-duration: 6s;
+    animation-play-state:running; 
+    animation-iteration-count:infinite;  
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+@keyframes myanimation
+{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(0%);
+    }
+}
+.welcome
+{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    animation: my;
+    animation-duration: 6s;
+    animation-play-state:running; 
+    animation-iteration-count:infinite;  
+    animation-timing-function: linear;
+    animation-delay: 0s;  
+}
+@keyframes my
+{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(0%);
+    }
+}
+.deruko
+{
+    display: flex;
+	flex-wrap: wrap;
+    margin: -10px;
+}
+.deruko img
+{
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+}
+.location
+{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-position: center;
+}
+.myfloat
+{
+    width: vw;
+    height: 50vh;
+    background-color: aqua;
+    clear: left;
+    display: flex;
+background-size: cover;
+    
+}
+culture1
+{
+    font-size: 20px;
+    margin-top: 8px;
+    width: 100vw;
+    height: 70vh;
+
+}
+.marqaa
+{
+float: left;
+padding-right: 10px;
+border-radius: 20px;
+}
+
+figure
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    margin-top: 40px;
+}
+figure img
+{
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    border-radius: 10px; 
+}
+.loc
+{
+    width: 100%;
+    height: 100%;
+}
+.cloth
+{
+    clear: left;
+    padding-top: 50px;
+}
+
+@media  screen and (max-width: 767px) {
+    li {
+        padding: 5px;
+        font-size: 15px;
+        
+    }
+    .location
+    {
+        width: 300px;
+
+    }
+    .source
+    {
+        width: 200px;
+    }
+
+
+    .about1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .location {
+        height: 300px;
+    }
+
+    .animate {
+        font-size: 18px;
+    }
+
+    .welcome {
+        font-size: 36px;
+    }
+    .marqaa {
+        width: 100%;
+        padding: 5px;
+        border-radius: 0;
+}
+.culture1
+{
+    width: 100vw;
+    font-size: 15px;
+    
+}
+.culture1 img{
+    width:100px;
+    height: 200px;
+
+}
+ .about {
+        font-size: 16px;
+    }
+    .one {
+        height: 60px;
+        padding: 0;
+        padding-left: 0;
+    }
+
+    .about1 {
+        width: 200px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 0;
+    }
+    .phone
+    {
+        margin-top: 70px;
+    }
+    .more
+    {
+        font-size: 15px;
+    }
+
+    .location {
+        height: 200px;
+    }
+
+    .culture1 {
+        font-size: 16px;
+    }
+
+    .marqaa {
+        width: 100%;
+        padding: 5px;
+        border-radius: 0;
+    }
+    fieldset
+    {
+        width: 100vw;
+    }
+.welcome
+{
+    animation: none;
+}
+.culture1
+{
+    width: 100vw;
+    font-size: 15px;
+    
+}
+.animate
+{
+    animation: none;
+}
+.culture1 img{
+    width:200px;
+    height: 200px
+
+}
+
+}
+
+@media only screen and (max-width: 767px){
+    .about {
+        font-size: 16px;
+    }
+    .one {
+        height: 60px;
+    }
+
+    .about1 {
+        width: 200px;
+        height: 100px;
+        padding: 5px;
+        border-radius: 0;
+    }
+    .phone
+    {
+        margin-top: 70px;
+    }
+
+    .location {
+        height: 200px;
+    }
+
+    .culture1 {
+        font-size: 16px;
+    }
+
+    .marqaa {
+        width: 100%;
+        padding: 5px;
+        border-radius: 0;
+    }
+    fieldset
+    {
+        width: 100vw;
+    }
+.welcome
+{
+    animation: none;
+}
+.culture1
+{
+    width: 100vw;
+    font-size: 15px;
+    
+}
+.culture1 img{
+    width:200px;
+    height: 200px
+
+}
+
+}
+
+
+ 
